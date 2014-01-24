@@ -1,0 +1,19 @@
+Some old PDF documents, such as papers from the early '80s, have their pages
+in reverse order.  The tools I know about (Acrobat Reader, Mac Preview, etc.)
+do not allow one to reverse the page order.  This is a simple script to reverse
+the pages of a pdf document.
+
+Installation
+============
+
+# Download and install pdftk
+
+  http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+
+# Download reverse-pdf-pages and add it to your path.
+
+# cd to the directory with the pdf you want to reverse
+
+# run reverse-pdf.sh FILE.pdf
+
+This will create the file FILE-rev.pdf which has the pages reversed.
